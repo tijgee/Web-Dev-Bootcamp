@@ -1,0 +1,14 @@
+body {
+  background-color: #fdefef;
+}
+
+hr {
+  background-color: white;
+  border-style: none;
+  height: 2px;
+}
+
+h1,
+h3 {
+  color: #64c9cf;
+}

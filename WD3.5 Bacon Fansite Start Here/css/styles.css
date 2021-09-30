@@ -1,0 +1,16 @@
+h1{
+    color: red;
+    font-size: 80px;
+}
+
+.bacon{
+    background-color: rgb(98, 235, 150);
+}
+
+#heading{
+    color: blue;
+}
+
+img:hover {
+    background-color: gold;
+}

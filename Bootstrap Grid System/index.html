@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid System!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="display-1 text-center text-primary">The Grid System</h1>
+      <div class="row">
+        <div class="col-6 bg-success">6</div>
+        <div class="col-6 bg-info">6</div>
+      </div>
+      <div class="row">
+        <div class="col-8 bg-success">8</div>
+        <div class="col-4 bg-info">4</div>
+      </div>
+      <h2 class="display-4">Responsive Grid</h2>
+      <div class="row">
+        <div class="col-md-6 bg-info">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium,
+          impedit voluptates odio autem eius animi ullam consequuntur non porro
+          veritatis quam odit, itaque quod reiciendis nihil enim et ipsa error.
+        </div>
+        <div class="col-md-6 bg-success">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum soluta
+          suscipit incidunt, optio debitis necessitatibus ratione ipsam
+          voluptatum quaerat iure aliquid, earum amet doloribus dolorum expedita
+          eos eligendi, corporis doloremque?
+        </div>
+      </div>
+      <h3>Justify Content</h3>
+      <div class="row border justify-content-center">
+        <div class="col-4 bg-primary">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas culpa
+          accusamus minima itaque ipsa praesentium molestias rerum? At, neque
+          porro esse reprehenderit beatae deserunt blanditiis iste sunt in?
+          Soluta, quod.
+        </div>
+        <div class="col-4 bg-secondary">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas culpa
+          accusamus minima itaque ipsa praesentium molestias rerum? At, neque
+          porro esse reprehenderit beatae deserunt blanditiis iste sunt in?
+          Soluta, quod.
+        </div>
+      </div>
+      <h1 class="display-2">Forms</h1>
+      <form action="nowhere">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Email">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="password">
+          </div>
+      </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="city">
+          </div>
+          <div class="form-group col-md-3 col-6">
+            <label for="state">State</label>
+            <select class ="form-control" name="state" id="state">
+              <option value="AL">Alabama</option>
+              <option value="AK">Alaska</option>
+            </select>
+            </div>
+            <div class="form-group col-md-3 col-6">
+              <label for="zip">Zip Code</label>
+              <input type="text" class="form-control" id="zip">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-success">Register</button>
+        </form>
+        </div>
+  </body>
+</html>
